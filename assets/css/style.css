@@ -1,0 +1,158 @@
+body {
+    text-align: center;
+    background: #83a4d4; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #83a4d4, #b6fbff); 
+    background: linear-gradient(to right, #83a4d4, #b6fbff);
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 2.3em;
+}
+
+hr {
+    width: 60%;
+    border-color: #35598f;
+}
+
+i {
+    color: white;
+}
+
+.survey-form {
+background: #f9f9f9;    
+width: 1000px;
+margin: 0 auto;
+border-radius: .5em;
+margin-bottom: 5px;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    background-color: #35598f;
+    color: #fff;
+    padding: 3px 6px;
+}
+
+
+.row {
+    display: block;
+    padding-top: 10px;
+}
+
+.label-Name {
+    display: inline-block;
+    margin: 5px;
+    width: 40%;
+    text-align: right;
+}
+
+.input-label {
+    display: inline-block;
+    width: 60%;
+    text-align: left;
+}
+
+.team-support {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    margin-right: .9em;
+}
+
+.team-select {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+.label-radio {
+    display: block;
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.radio-select {
+    display: block;
+    width: 20%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.block {
+    display: block;
+    margin: 20px 0 20px 0;
+ }
+
+ a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+    width: 5em;
+    height: 2em;
+    letter-spacing: .2em;
+    font-weight: bold;
+    border-radius: .4em;
+    box-shadow: 0px 0px 2px 2px grey;
+    margin-right: .5em;
+  }
+  
+  .next {
+    background-color: #35598f;
+    color: white;
+    width: 5em;
+    height: 2em;
+    letter-spacing: .2em;
+    font-weight: bold;
+    font-weight: .1em;
+    border-radius: .4em;
+    box-shadow: 0px 0px 2px 2px grey;
+  }
+
+ .previous:hover {
+     background-color: #35598f;
+     color: white;
+     transition-duration: 1s;
+ }
+
+ .next:hover {
+    background-color: #f1f1f1;
+    color: black;
+    transition-duration: 1s;
+
+}
+
+.button {
+    margin-top: 2em;
+}
+
+.logo {
+    margin-top: 3em;
+}
+
+.prem {
+width: 200px;
+height: 150px;
+margin-right: 1em;
+}
+
+.efl {
+    width: 260px;
+    height: 150px;
+}
+
+.dropdown {
+    width: 200px;
+}
